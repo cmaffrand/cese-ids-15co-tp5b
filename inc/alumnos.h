@@ -49,7 +49,7 @@ typedef struct alumno_s {
 * @param[in]    espacio Tamaño de la cadena de caracteres
 * @param[in]    alumno  Estructura con los datos del alumno
 * @return               true    => Serialización correcta
-* @return               false   => Serialización INCORRECTA
+*                       false   => Serialización INCORRECTA
 */
 bool SerializarAlumno(char * cadena, size_t espacio, const alumno_t alumno);
 
@@ -61,7 +61,7 @@ bool SerializarAlumno(char * cadena, size_t espacio, const alumno_t alumno);
 * @param[out]   cadena  Cadena de caracteres a serializar
 * @param[in]    espacio Tamaño de la cadena de caracteres
 * @return               true    => Serialización correcta
-* @return               false   => Serialización INCORRECTA
+*                       false   => Serialización INCORRECTA
 */
 bool SerializarAlumnos(char * cadena, size_t espacio);
 
